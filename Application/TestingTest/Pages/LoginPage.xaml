@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestingTest.Pages.LoginPage" Title="UITest App">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Padding="20">
+            <Label Text="Email" IsVisible="{Binding EmailVisible}" />
+            <Entry AutomationId="EntryEmail" Text="{Binding Email}" Placeholder="Email" IsVisible="{Binding EmailVisible}" />
+            <Label Text="Username" />
+            <Entry AutomationId="EntryUsername" Text="{Binding Username}" Placeholder="Username" />
+            <Label Text="Password" IsVisible="{Binding PasswordVisible}"/>
+            <Entry AutomationId="EntryPassword" Text="{Binding Password}" Placeholder="Password" IsPassword="true" IsVisible="{Binding PasswordVisible}"/>
+            <Button AutomationId="ButtonLogin" Text="Login" Clicked="Handle_Clicked_Login" />
+            <Button AutomationId="ButtonSignIn" Text="No Account ?" Clicked="Handle_Clicked_NoAccount" />
+            <Button AutomationId="ButtonLostPassword" Text="Lost Password ?" Clicked="Handle_Clicked_LostPassword" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
