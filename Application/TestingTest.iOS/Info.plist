@@ -25,7 +25,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>TestingTest</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.ubp.TestingTest</string>
+	<string>com.my.TestingTest</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>UILaunchStoryboardName</key>

@@ -10,7 +10,7 @@ namespace XF.Capisoft.UITest
 
         const string IpaPath = "../../../Binaries/TestingTest.ipa";
         const string DeviceUDID = "743B1E5D-6677-4267-A024-9369B2DA2A38";
-        const string AppBundle = "com.ubp.TestingTest";
+        const string AppBundle = "com.my.TestingTest";
 
 
         static IApp app;
